@@ -1,0 +1,105 @@
+{
+  "code": 0,
+  "msg": "OK",
+  "result": [
+    {
+      "text": "系统管理",
+      "path": "/system",
+      "code": "10",
+      "icon": "el-icon-setting",
+      "nodeList": [
+        {
+          "text": "用户管理",
+          "code": "1001",
+          "path": "/system/user"
+        },
+        {
+          "text": "角色管理",
+          "code": "1002",
+          "path": "/system/role"
+        }
+      ]
+    },
+    {
+      "text": "服务监控",
+      "path": "/monitor",
+      "code": "20",
+      "icon": "el-icon-monitor",
+      "nodeList": [
+        {
+          "text": " RPC服务监控",
+          "code": "2001",
+          "path": "/monitor/rpc_dashboard"
+        },
+        {
+          "text": "MQ服务监控",
+          "code": "2002",
+          "path": "/monitor/mq_dashboard"
+        },
+        {
+          "text": "应用服务监控",
+          "code": "2003",
+          "path": "",
+          "nodeList": [
+            {
+              "text": "应用服务监控中国",
+              "code": "200201",
+              "path": "/monitor/app/01"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/02"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200203",
+              "path": "/monitor/app/03"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200204",
+              "path": "/monitor/app/04"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/05"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/06"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/07"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/02"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/02"
+            },
+            {
+              "text": "应用服务监控2",
+              "code": "200202",
+              "path": "/monitor/app/02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "预定会议室",
+      "code": "30",
+      "icon": "el-icon-position",
+      "path": "/meeting/book"
+    }
+  ]
+}

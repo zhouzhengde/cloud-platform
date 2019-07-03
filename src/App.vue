@@ -1,28 +1,18 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <ux-window v-if="userInfo" menu_url="/mock/menu.json" id="app"/>
+    <login v-else/>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import UxWindow from "./components/UxWindow";
+    import Login from './views/Login';
+    import session from './assets/js/session';
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        components: {UxWindow, Login},
+        data() {
+            return {
+                userInfo: session.getUserInfo()
+            }
+        }
+    }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
