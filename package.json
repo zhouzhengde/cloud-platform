@@ -22,7 +22,7 @@
     "element-ui": "^2.3.6",
     "flex-layout": "^1.0.1",
     "install": "^0.12.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "uuid": "^3.3.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
